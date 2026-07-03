@@ -1,0 +1,4 @@
+*.whl binary
+*.json text eol=lf
+*.html text eol=lf
+*.metadata text eol=lf

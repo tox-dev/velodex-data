@@ -1,0 +1,12 @@
+# The pages, metadata, and wheels are captured verbatim from pypi.org and must stay byte-exact, so
+# only the repo's own text (README, this config, .gitattributes) is linted.
+exclude: ^(pages|metadata|wheels)/
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: check-yaml
+      - id: check-merge-conflict
